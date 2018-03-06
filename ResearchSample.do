@@ -33,6 +33,6 @@ by stabbr, sort : egen float sturoomrk = rank(sturoomrt), field
 
 export excel unitid instnm chfnm chftitle addr city ///
 stabbr zip roomcap efytotltugr sturoomrt using ///
-"P:\pCloud Sync\Box Docs\JusticeAdmResearch\sp_lst.xlsx" ///
+"P:\pCloud Sync\Box Docs\AdmResearch\sp_lst.xlsx" ///
 if sturoomrk == 1, firstrow(variables) replace
 
